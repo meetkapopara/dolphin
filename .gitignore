@@ -1,0 +1,64 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.bak
+*.ipynb
+
+# Project specific
+/models/
+/loras/
+/logs/
+/cache/
+/characters/
+/css/
+/extensions/
+/grammars/
+/installer_files/
+/presets/
+/prompts/
+/repositories/
+/softprompts/
+/torch-dumps/
+/training/
+/wandb/
+
+# Config and settings
+*.log
+settings*.json
+settings*.yaml
+config*.yaml
+.env
+.envrc
+.direnv
+CMD_FLAGS.txt
+
+# IDE and Editor files
+.vscode/
+.idea/
+.vs/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.yaml
+docker-compose.yml
+Dockerfile
+
+# Security
+*.pem
+cert.pem
+key.pem
+
+# Node (if using any frontend components)
+node_modules/
+package.json
+package-lock.json
+
+# Temporary and cache files
+.chroma/
+*.bak
